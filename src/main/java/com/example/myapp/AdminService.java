@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 public class AdminService {
 
     public boolean sendRevenueReports() {
+        System.out.println("Revenue reports sent!");
         return true;
     }
 }
